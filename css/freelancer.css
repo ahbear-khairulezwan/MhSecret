@@ -284,7 +284,6 @@ a {
 
 .input-primary{
   margin: auto;
-  position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   border-radius: 50px;
   background-color: #ffffff; 
@@ -295,6 +294,19 @@ a {
   height: 46px;
 }
 
+.button-primary{
+  margin: 0;
+  top: 0; left: 0; bottom: 0; right: 0;
+  border-radius: 50px;
+  background-color: #14467B;
+  border-color:  #14467B;
+  color: #ffffff;
+  min-width: 146px; 
+  max-width: 335px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 46px;
+}
 
 .btn-secondary {
   background-color: #2C3E50;
