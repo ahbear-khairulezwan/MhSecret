@@ -268,7 +268,7 @@ a {
 
 .bg-white {
   background-color: #ffffff}  
-
+.bg-footer {background-color:lightblue;}
 .text-primary {
   color: #ffffff !important;}
 
@@ -295,7 +295,7 @@ a {
 }
 
 .button-primary{
-  margin: 0;
+  margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
   border-radius: 50px;
   background-color: #14467B;
@@ -307,6 +307,11 @@ a {
   padding-right: 40px;
   height: 46px;
 }
+  .button-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #ffffff;
+    border-color: #00A9E5;
+    color:#00A9E5;
+  }
 
 .btn-secondary {
   background-color: #2C3E50;
