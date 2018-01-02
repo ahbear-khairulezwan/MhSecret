@@ -269,7 +269,10 @@ a {
   background-size:  cover;
   background-color: #999;
 }  
-
+.nav-img{
+  max-width: 18%;
+  min-width: 18%;
+}
 .bg-secondary {
   background-color: #2C3E50 !important; }
 
