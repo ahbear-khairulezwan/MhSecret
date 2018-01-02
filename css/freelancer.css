@@ -261,14 +261,26 @@ a {
 .bg-primary {
   background-color: #18BC9C !important; }
 
-.bg-img{background-image: url("../img/back-ground.png") !important;}  
+.bg-img{
+  background-image: url("../img/back-ground.png");
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+}  
 
 .bg-secondary {
   background-color: #2C3E50 !important; }
 
 .bg-white {
   background-color: #ffffff}  
-.bg-footer {background-color:lightblue;}
+.bg-footer {
+  background-color:#00A9E5;
+}
+.text-copyright{
+  color:#333333;
+}
 .text-primary {
   color: #ffffff !important;}
 
