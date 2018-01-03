@@ -6,11 +6,19 @@
 body {
   font-family: 'Lato'; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+  h1 {
+    font-family: 'Gotham'; }
+  h2 {
+    font-family: 'Gotham'; }
+  h3 {
+    font-family: 'Gotham'; }
+  h4{
+    font-family: 'Gotham'; }
+  h5{
+    font-family: 'Gotham'; }
+  h6 {
+    font-weight: 700;
+    font-family: 'Gotham'; }
 h6 {
   font-weight: 700;
   font-family: 'Montserrat'; }
@@ -248,7 +256,10 @@ form .row:first-child .floating-label-form-group {
   color: #fff; }
 
 .copyright {
-  background-color: #1a252f; }
+  background-color: #ffffff !important;
+  opacity: 0.5 !important;
+  z-index: 1;
+}
 
 a {
   color: #18BC9C; }
@@ -282,7 +293,9 @@ a {
   background-color:#00A9E5;
 }
 .text-copyright{
-  color:#333333;
+  color:#000000;
+  z-index: 2;
+  position: relative;
 }
 .text-primary {
   color: #ffffff !important;}
