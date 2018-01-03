@@ -337,6 +337,8 @@ a {
 
 /*Adding Recrangle Opacity To rectangle*/
 .Rectangle-Copy-3 {
+  height: auto;
+  width:auto;
   opacity: 1;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
