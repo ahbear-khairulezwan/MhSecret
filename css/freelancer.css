@@ -254,7 +254,8 @@ form .row:first-child .floating-label-form-group {
   padding-bottom: 5rem;
   background-color: #2C3E50;
   color: #fff; }
-
+  
+/*BACKGROUND COLOR PLEASE DONT FOLLOW THE ZEPLIN CSS*/
 .copyright {
   background-color: #ffffff !important;
   opacity: 0.5 !important;
