@@ -3,44 +3,91 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
-
+/*Gotham font*/
 @font-face {
-  font-family: Gotham;
-  src: url('../font/GOTHAM-LIGHT.OTF');
+  font-family: Gotham-bold;
+  src: url('../font/gotham/GOTHAM-BOLD.TTF');
 }
-
+@font-face{
+  font-family: Gotham-bold-italic;
+  src: url('../font/gotham/GOTHAM-BOLDITALIC.TTF');
+}
+@font-face {
+  font-family: Gotham-black;
+  src: url('../font/gotham/GOTHAM-BLACK_0.TTF');
+}
+@font-face{
+  font-family: Gotham-black-italic;
+  src: url('../font/gotham/GOTHAM-BLACKITALIC.TTF');
+}
+@font-face{
+  font-family: Gotham-light;
+  src: url('../font/gotham/GOTHAM-LIGHT.TTF'); 
+}
+@font-face{
+  font-family: Gotham-medium;
+  src: url('../font/gotham/GOTHAM-MEDIUM.TTF');
+}
+@font-face{
+  font-family: Gotham-medium-italic;
+  src: url('../font/gotham/GOTHAM-MEDIUMITALIC.TTF');
+}
+@font-face{
+  font-family: Gotham-thin;
+  src: url('../font/gotham/GOTHAM-THIN.TTF');
+}
+@font-face{
+  font-family: Gotham-thin-italic;
+  src: url('../font/gotham/GOTHAM-THINITALIC.TTF');
+}
+@font-face{
+  font-family: Gotham-ultra;
+  src: url('../font/gotham/GOTHAM-ULTRA.TTF');
+}
+@font-face{
+  font-family: Gotham-ultra-italic;
+  src: url('../font/gotham/GOTHAM-ULTRAITALIC.TTF');
+}
+@font-face{
+  font-family: Gotham-xlight;
+  src: url('../font/gotham/GOTHAM-XLIGHT.TTF');
+}
+@font-face{
+  font-family: Gotham-xlight-italic;
+  src: url('../font/gotham/GOTHAM-XLIGHTITALIC.TTF');
+}
 body {
-  font-family: 'Gotham';
+  font-family: 'Gotham-bold';
 }
 
 h1 {
-  font-family: 'Gotham';
+  font-family: 'Gotham-bold';
 }
 
 h2 {
-  font-family: 'Gotham';
+  font-family: 'Gotham-bold';
 }
 
 h3 {
-  font-family: 'Gotham';
+  font-family: 'Gotham-bold';
 }
 
 h4 {
-  font-family: 'Gotham';
+  font-family: 'Gotham-bold';
 }
 
 h5 {
-  font-family: 'Gotham';
+  font-family: 'Gotham-bold';
 }
 
 h6 {
   font-weight: 700;
-  font-family: 'Gotham';
+  font-family: 'Gotham-bold';
 }
 
 h6 {
   font-weight: 700;
-  font-family: 'Gotham';
+  font-family: 'Gotham-bold';
 }
 
 hr.star-light,
