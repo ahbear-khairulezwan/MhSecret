@@ -527,6 +527,21 @@ a:active {
   height: 46px;
 }
 
+.textarea-primary{
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  min-width: 146px;
+  max-width: 335px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 46px;
+}
+
 .button-primary {
   margin: auto;
   top: 0;
