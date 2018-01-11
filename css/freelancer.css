@@ -134,6 +134,10 @@ section {
   padding: 6rem 0;
 }
 
+.section1rem{
+  padding: 1rem 0 !important;
+}
+
 section h2 {
   font-size: 2.25rem;
   line-height: 2rem;
