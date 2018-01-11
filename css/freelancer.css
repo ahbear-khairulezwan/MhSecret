@@ -588,6 +588,56 @@ a:active {
   color: #00A9E5;
 }
 
+.button-tertiary {
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50px;
+  background-color: #14467B;
+  border-color: #14467B;
+  color: #ffffff;
+  min-width: 146px;
+  max-width: 167px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 46px;
+}
+
+.button-tertiary:hover,
+.btn-tertiary:focus,
+.btn-tertiary:active {
+  background-color: #ffffff;
+  border-color: #00A9E5;
+  color: #00A9E5;
+}
+
+.button-quaternary {
+  background-color: #9b9b9b;
+  border-color: #9b9b9b;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 100px;
+  color: #ffffff;
+  min-width: 146px;
+  max-width: 167px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 46px;
+}
+
+.button-quaternary:hover,
+.btn-quaternary:focus,
+.btn-quaternary:active {
+  background-color: #ffffff;
+  border-color: #00A9E5;
+  color: #00A9E5;
+}
+
 
 /*Adding Recrangle Opacity To rectangle*/
 
