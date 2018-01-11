@@ -61,7 +61,7 @@
     <div class="container-liquid" style="background-color:#F1F1F1;">
         <div class="row">
             <div style="border-top:3px solid red" class="col-12">
-                <h4 style="padding-left:40px;padding-top:10px;color:#14467B">Modify User</h4>
+                <h4 style="padding-left:40px;padding-top:10px;color:#14467B">Modify Merchant</h4>
             </div>
         </div>
     </div>
@@ -70,22 +70,44 @@
         <div class="container">
             <form action="" name="" id="" novalidate>
                 <div class="row">
-                    <div class="col-4">
-                        <p style="color:#14467B">User Name</p>
+                    <div class="col-3">
+                        <p style="color:#14467B">Merchant ID</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-3">
+                        <p style="color:#14467B">Merchant Name</p>
+                    </div>
+                    <div class="col-3">
+                        <p style="color:#14467B">Contact Number</p>
+                    </div>
+                    <div class="col-3">
                         <p style="color:#14467B">Email Address</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
-                        <input class="form-control input-primary" id="username" type="text" placeholder="Username" required="required" data-validation-required-message="Please enter your Username.">
+                    <div class="col-3">
+                        <input class="form-control input-primary" id="username" type="text" placeholder="Merchant ID" required="required" data-validation-required-message="Please enter your Username.">
                     </div>
-                    <div class="col-4">
-                        <input class="form-control input-primary" id="Email" type="text" placeholder="Email Address" required="required" data-validation-required-message="Please enter your Username.">
+                    <div class="col-3">
+                        <input class="form-control input-primary" id="username" type="text" placeholder="Merchant ID" required="required" data-validation-required-message="Please enter your Username.">
                     </div>
-                    <div class="col-4">
-                        <button type="submit" class="form-control btn btn-block button-primary" id="sendMessageButton">Search</button>
+                    <div class="col-3">
+                        <input class="form-control input-primary" id="username" type="text" placeholder="Merchant ID" required="required" data-validation-required-message="Please enter your Username.">
+                    </div>
+                    <div class="col-3">
+                        <input class="form-control input-primary" id="username" type="text" placeholder="Merchant ID" required="required" data-validation-required-message="Please enter your Username.">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <p style="color:#14467B">Contact Name</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                            <input class="form-control input-primary" id="username" type="text" placeholder="Merchant ID" required="required" data-validation-required-message="Please enter your Username.">
+                    </div>
+                    <div class="col-9">
+                            <button type="submit" class="form-control btn btn-block button-primary" id="sendMessageButton">Search</button>
                     </div>
                 </div>
             </form>
@@ -110,10 +132,14 @@
                     <td>khairulezwan.mohdkaswan@malaysiaairlines.com</td>
                     <td id="demo">Admin</td>
                     <td>
-                        <button onclick="changeButton()" style="border-style:none;background-color:#fff"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></button>
+                        <button onclick="changeButton()" style="border-style:none;background-color:#fff">
+                                <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                        </button>
                     </td>
                     <td>
-                        <button style="border-style:none;background-color:#fff"><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i></button>
+                        <button style="border-style:none;background-color:#fff">
+                            <i class="fa fa-trash-o fa-2x" aria-hidden="true"></i>
+                        </button>
                     </td>
                 </tr>
             </tbody>
@@ -142,7 +168,7 @@
     <script src="../js/freelancer.min.js"></script>
 
     <script>
-        function changeButton(){
+        function changeButton() {
             document.getElementById('demo').style.color = "red";
         }
     </script>
